@@ -1,0 +1,63 @@
+.card{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.item{
+    background: #FFFFFF;
+    border: 1px solid #F3F3F3;
+    box-sizing: border-box;
+    border-radius: 40px;
+    padding: 30px;
+    width: 210px;
+    transition: box-shadow 0.2s ease-in-out transform 0.9s ease-in-out;
+
+
+    &:hover{
+        box-shadow: 0px 14px 30px rgb(208, 216, 205, 0.884);
+        transform: translateY(-5px);
+    }
+
+    p{
+        font-size: 14px;
+        color: #000000;
+        padding: 13px 0;
+    }
+
+    span{
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 11px;
+        color: #BDBDBD;
+    }
+    
+
+}
+
+.imgItem{
+    border: 1px solid #F2F2F2;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pr{
+        font-weight: 800;
+        padding-top: 2px !important;
+}
+
+.ab{
+    position: absolute;
+    cursor: pointer;
+}

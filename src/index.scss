@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #E5E5E5;
+    color: #BBA9A9;
+    font-family: 'Inter', sans-serif;   
+    font-size: 2.7vh;
+}
+
+
+li{
+    list-style: none;
+}
+
+.countainer{
+    max-width: 960px;
+    margin: 0 auto;
+    width: 100%;
+}
